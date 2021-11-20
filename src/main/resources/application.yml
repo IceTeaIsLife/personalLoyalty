@@ -1,0 +1,15 @@
+spring:
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+  sql:
+    init:
+      platform: all
+  datasource:
+    name: pl_system
+    url: jdbc:postgresql://localhost:5432/pl_system
+    username: postgres
+    password: postgres
